@@ -2,8 +2,8 @@
   "name": "todo-dioxus",
   "version": "0.1.0",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
+    "build": "tailwindcss -i ./input.css -o ./dist/output.css -c ./tailwind.config.cjs",
+    "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch -c ./tailwind.config.cjs"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
